@@ -4,7 +4,3 @@
 # Modify for Oracle Free version
 
 docker exec oracle-23c ./setPassword.sh foo
-
-docker exec -it oracle-23c sqlplus sys/foo@FREE as sysdba
-docker exec -it oracle-23c sqlplus system/foo@FREE
-docker exec -it oracle-23c sqlplus pdbadmin/foo@FREEPDB1
