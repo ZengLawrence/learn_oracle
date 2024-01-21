@@ -3,7 +3,7 @@
 -- If you’re using a non-container database, leave PDB blank.
 -- This same code to create SCOTT is in $ORACLE_HOME/rdbms/admin/utlsampl.sql
 -- Set this to your PDB in your database.
-define PDB=PDB1
+define PDB=FREEPDB1
 define scott_pwd=tiger
 conn / as sysdba
 alter session set container=&&PDB;
